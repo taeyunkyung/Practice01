@@ -10,8 +10,8 @@ public class Ex13 {
 		
 		System.out.print("환전할 원화를 입력하세요:");
 		int won = sc.nextInt();
-		final double doll = 1230.95;
-		System.out.println("받으실 달러는 "+ (won*1/doll));
+		final double DOL = 1230.95;
+		System.out.println("받으실 달러는 "+ (won*1/DOL));
 		
 		sc.close();
 	}
