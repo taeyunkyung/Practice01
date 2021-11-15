@@ -10,7 +10,7 @@ public class Ex17 {
 		
 		System.out.print("반지름:");
 		double r = sc.nextDouble();
-		double pi = 3.14;
+		final double pi = 3.14;
 		System.out.println("구의 부피는: "+(pi*r*r*r*4.0/3.0));
 		
 		sc.close();
